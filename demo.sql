@@ -1,0 +1,4 @@
+CREATE TABLE DemoSchema
+(ID   INT IDENTITY(1, 1), 
+ Name VARCHAR(20)
+);

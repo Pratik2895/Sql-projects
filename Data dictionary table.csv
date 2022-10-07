@@ -1,0 +1,25 @@
+TABLE_NAME,COLUMN_NAME,DATA_TYPE,DATA_TYPE_MOD,DATA_TYPE_OWNER,DATA_LENGTH,DATA_PRECISION,DATA_SCALE,NULLABLE,COLUMN_ID,DEFAULT_LENGTH,DATA_DEFAULT,NUM_DISTINCT,LOW_VALUE,HIGH_VALUE,DENSITY,NUM_NULLS,NUM_BUCKETS,LAST_ANALYZED,SAMPLE_SIZE,CHARACTER_SET_NAME,CHAR_COL_DECL_LENGTH,GLOBAL_STATS,USER_STATS,AVG_COL_LEN,CHAR_LENGTH,CHAR_USED,V80_FMT_IMAGE,DATA_UPGRADED,HISTOGRAM,DEFAULT_ON_NULL,IDENTITY_COLUMN,EVALUATION_EDITION,UNUSABLE_BEFORE,UNUSABLE_BEGINNING,COLLATION
+DEPT_COPY_TAB,DEPTNO,NUMBER, - , - ,22, - , - ,Y,1, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+DEPT_COPY_TAB,DNAME,VARCHAR2, - , - ,50, - , - ,Y,2, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+DEPT_COPY_TAB,MGR_ID,NUMBER, - , - ,22,10,0,Y,3, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+DEPT_COPY_TAB,LOCATION_ID,NUMBER, - , - ,22,10,0,Y,4, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+DEPT_TAB,DEPTNO,NUMBER, - , - ,22,5,0,N,1, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+DEPT_TAB,DNAME,VARCHAR2, - , - ,50, - , - ,Y,2, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+DEPT_TAB,MGR_ID,NUMBER, - , - ,22,10,0,Y,3, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+DEPT_TAB,LOCATION_ID,NUMBER, - , - ,22,10,0,Y,4, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,EMPNO,NUMBER, - , - ,22, - , - ,N,1, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,NAME,VARCHAR2, - , - ,50, - , - ,N,2, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+EMP_TAB,JOB,VARCHAR2, - , - ,50, - , - ,Y,3, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+EMP_TAB,MANAGER,NUMBER, - , - ,22,10,0,Y,4, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,HIREDATE,DATE, - , - ,7, - , - ,Y,5, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,SALARY,NUMBER, - , - ,22,10,2,Y,6, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,COMMISSION,NUMBER, - , - ,22,10,2,Y,7, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+EMP_TAB,DEPTNO,NUMBER, - , - ,22,5,0,Y,8, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,EMPNO,NUMBER, - , - ,22, - , - ,Y,1, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,NAME,VARCHAR2, - , - ,50, - , - ,N,2, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+OLD_EMP_TAB,JOB,VARCHAR2, - , - ,50, - , - ,Y,3, - , - , - , - , - , - , - , - , - , - ,CHAR_CS,50,NO,NO, - ,50,B,NO,YES,NONE,NO,NO, - , - , - ,USING_NLS_COMP
+OLD_EMP_TAB,MANAGER,NUMBER, - , - ,22,10,0,Y,4, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,HIREDATE,DATE, - , - ,7, - , - ,Y,5, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,SALARY,NUMBER, - , - ,22,10,2,Y,6, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,COMMISSION,NUMBER, - , - ,22,10,2,Y,7, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
+OLD_EMP_TAB,DEPTNO,NUMBER, - , - ,22,5,0,Y,8, - , - , - , - , - , - , - , - , - , - , - , - ,NO,NO, - ,0, - ,NO,YES,NONE,NO,NO, - , - , - , - 
